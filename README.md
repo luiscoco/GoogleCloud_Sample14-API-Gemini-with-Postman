@@ -6,7 +6,7 @@
 
 ```
 gcloud init
-gcloud config set project extreme-axon-381209
+gcloud config set project xxxxxxxxxxxxxxxx
 gcloud auth login
 gcloud auth list
 gcloud auth print-access-token
@@ -75,7 +75,7 @@ We run these commands and then we copy the Access Token
 
 ```
 gcloud init
-gcloud config set project extreme-axon-381209
+gcloud config set project xxxxxxxxxxxxxxxxx
 gcloud auth login
 gcloud auth list
 gcloud auth print-access-token
@@ -170,7 +170,7 @@ We run these commands and then we copy the Access Token
 
 ```
 gcloud init
-gcloud config set project extreme-axon-381209
+gcloud config set project xxxxxxxxxxxxxxxxxx
 gcloud auth login
 gcloud auth list
 gcloud auth print-access-token
