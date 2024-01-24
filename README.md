@@ -20,9 +20,13 @@ gcloud config set project extreme-axon-381209
 
 We log in with the authorization 
 
+```
 gcloud auth login
+```
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/46801ae1-9e83-4a9a-a9ba-10192573c8cc)
+
+We can list the **authorizations** with the following command
 
 ```
 gcloud auth list
@@ -30,13 +34,13 @@ gcloud auth list
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/2498f6fb-b906-4993-b451-b301a09fe574)
 
-We use the following command to print the Token, and in the following section we teach you how to set the Postman authorization request
+We print the **Access Token**, and in the following section we teach you how to set the Postman authorization request
 
 ```
 gcloud auth print-access-token
 ```
 
-We type the following command to retrieve the **Gemini** endpoint
+We type the following command to retrieve the **Gemini Endpoint**
 
 ```
 gcloud ai endpoints list --region=us-central1
