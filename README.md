@@ -143,6 +143,10 @@ We input the input **Body** request
 }
 ```
 
+See the input body in Postman
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/1d831054-99f7-4912-ba3b-d91b33609268)
+
 
 
 
