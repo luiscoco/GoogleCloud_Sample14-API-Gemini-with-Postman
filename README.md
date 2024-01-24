@@ -19,7 +19,7 @@ We first log in to **Google Cloud CLI**
 gcloud init
 ```
 
-![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/32d4bb7e-d10e-4559-822c-1205aa7eb666)
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/fd12f35b-1da5-45e4-9f34-c51b359b37d1
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/0cda8f2e-6108-4156-9636-e3cad669bf21)
 
