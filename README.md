@@ -71,5 +71,14 @@ https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini
 
 ## 3. First sample with Postman
 
+We run **Postman** and we create a new **POST** request pressing on the **+** button
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/b94dcdb5-b967-4bd5-9dc4-08b57972e3f3)
+
+We select the **POST** request
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/2ac534e7-e479-41a9-b516-dfb5f2435dce)
+
+
 
 
