@@ -124,7 +124,7 @@ gcloud auth print-access-token
 
 We input the **Access Token in Postman**
 
-![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/b1c8ff06-7569-4a41-8c1d-c2e91306de45)
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/8625087b-c7b1-47b2-964e-e789ef4151a5)
 
 We select the Body request format **JSON**
 
