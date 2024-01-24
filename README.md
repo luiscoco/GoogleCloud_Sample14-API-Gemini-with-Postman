@@ -82,7 +82,7 @@ gcloud auth print-access-token
 gcloud ai endpoints list --region=us-central1
 ```
 
-We are going to test the samples in this URL: https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini
+We are going to test the samples in this URL: **https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini**
 
 We run **Postman** and we create a new **POST** request pressing on the **+** button
 
@@ -181,5 +181,53 @@ We input the Access Toke in Postman
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/7513c572-4809-4010-863e-182a71563111)
 
-We are going to test the samples in this URL: https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini
+We are going to test the samples in this URL: **https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini**
 
+We copy from the sample the **Gemini URL**:
+
+https://us-central1-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/us-central1/publishers/google/models/gemini-pro-vision:streamGenerateContent
+
+We get the **PROJECT_ID** from Google Cloud Console
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/3d26e2e6-7f7a-4fa7-a23f-7a07380ee720)
+
+We input the **PROJECT_ID** in postman
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/8eec0683-65c8-478f-9a7f-4d5076109026)
+
+We select the Body request format **JSON**
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/49305cca-678c-473b-92dd-81a51cf0b39c)
+
+We input the input **Body** request
+
+```json
+{
+  "contents": {
+    "role": "user",
+    "parts": [
+      {
+        "fileData": {
+          "mimeType": "image/png",
+          "fileUri": "gs://cloud-samples-data/ai-platform/flowers/daisy/10559679065_50d2b16f6d.jpg"
+        }
+      },
+      {
+        "text": "Describe this picture."
+      }
+    ]
+  },
+  "safety_settings": {
+    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+    "threshold": "BLOCK_LOW_AND_ABOVE"
+  },
+  "generation_config": {
+    "temperature": 0.4,
+    "topP": 1.0,
+    "topK": 32,
+    "maxOutputTokens": 2048
+  }
+}
+```
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/6909eaaa-472b-41a1-8c8b-ba1767584d07)
