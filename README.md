@@ -236,7 +236,7 @@ and we copy the **Gemini URL** in Postman
 
 This is the response we get
 
-![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/619a1fb9-b408-4fa7-8688-a97622e8bdf0)
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/e25480cf-8876-4194-a2cd-2f2427f90a5e)
 
 ```json
 [{
