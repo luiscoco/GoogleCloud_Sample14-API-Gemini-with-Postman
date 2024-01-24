@@ -158,7 +158,7 @@ See the input body in Postman
 
 After pressing the **Send** button we get the following response
 
-![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/cf9f70e8-f34f-4db9-bf70-115cfe89ab94)
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/3e5d9541-3aa4-4bda-987a-202d716cdf99)
 
 ## 4. Second sample with Postman (Multimodal)
 
