@@ -123,7 +123,25 @@ We select the Body request format **JSON**
 
 We input the input **Body** request
 
-
+```json
+{
+  "contents": {
+    "role": "user",
+    "parts": {
+        "text": "Give me a recipe for banana bread."
+    },
+  },
+  "safety_settings": {
+    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+    "threshold": "BLOCK_LOW_AND_ABOVE"
+  },
+  "generation_config": {
+    "temperature": 0.2,
+    "topP": 0.8,
+    "topK": 40
+  }
+}
+```
 
 
 
