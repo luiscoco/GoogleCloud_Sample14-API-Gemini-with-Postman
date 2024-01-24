@@ -103,4 +103,6 @@ And we copy the **PROJECT_ID** in postman
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/396ac1f9-46f1-4257-8ab9-91c68438cffb)
 
+We input the **PROJECT_ID** in postman
+
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/8eec0683-65c8-478f-9a7f-4d5076109026)
