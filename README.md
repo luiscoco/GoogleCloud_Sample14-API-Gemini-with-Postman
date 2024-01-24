@@ -2,6 +2,17 @@
 
 ## 1. Prerequisites
 
+**Commands summary**
+
+```
+gcloud init
+gcloud config set project extreme-axon-381209
+gcloud auth login
+gcloud auth list
+gcloud auth print-access-token
+gcloud ai endpoints list --region=us-central1
+```
+
 We first log in to **Google Cloud CLI**
 
 ```
@@ -14,7 +25,9 @@ gcloud init
 
 We select the **Google Cloud Project**
 
+```
 gcloud config set project extreme-axon-381209
+```
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/a8cf66e6-3c07-4056-b18e-93e44cd1c1e5)
 
