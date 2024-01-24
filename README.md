@@ -29,8 +29,6 @@ We select the **Google Cloud Project**
 gcloud config set project xxxxxxxxxxxxxx
 ```
 
-![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/a8cf66e6-3c07-4056-b18e-93e44cd1c1e5)
-
 We log in with the authorization 
 
 ```
