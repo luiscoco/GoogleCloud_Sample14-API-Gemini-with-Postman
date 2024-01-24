@@ -96,7 +96,7 @@ We navigate to **Gemini Sample** URL: https://cloud.google.com/vertex-ai/docs/ge
 
 and we copy the **Gemini URL** in Postman
 
-https://**us-central1**-aiplatform.googleapis.com/v1/projects/**PROJECT_ID**/locations/**us-central1**/publishers/google/models/gemini-pro:streamGenerateContent?alt=sse
+**https://us-central1-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/us-central1/publishers/google/models/gemini-pro:streamGenerateContent?alt=sse**
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/e39d5d49-1a4d-4f04-b951-cea69ac42007)
 
@@ -231,3 +231,89 @@ We input the input **Body** request
 ```
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/6909eaaa-472b-41a1-8c8b-ba1767584d07)
+
+We navigate to **Gemini Sample** URL: https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini
+
+and we copy the **Gemini URL** in Postman
+
+**https://us-central1-aiplatform.googleapis.com/v1/projects/PROJECT_ID/locations/us-central1/publishers/google/models/gemini-pro-vision:streamGenerateContent**
+
+This is the response we get
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/619a1fb9-b408-4fa7-8688-a97622e8bdf0)
+
+```json
+[{
+  "candidates": [
+    {
+      "content": {
+        "role": "model",
+        "parts": [
+          {
+            "text": " A daisy is growing up through a pile of brown and yellow fall leaves. The daisy has white petals with a yellow center. The leaves are all different shapes"
+          }
+        ]
+      },
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE"
+        }
+      ]
+    }
+  ]
+}
+,
+{
+  "candidates": [
+    {
+      "content": {
+        "role": "model",
+        "parts": [
+          {
+            "text": " and sizes. The daisy is the only thing that is not brown or yellow in the picture."
+          }
+        ]
+      },
+      "finishReason": "STOP",
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE"
+        }
+      ]
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 262,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 312
+  }
+}
+]
+```
+
