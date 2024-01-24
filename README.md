@@ -69,7 +69,9 @@ https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/quicksta
 
 https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini
 
-## 3. First sample with Postman
+## 3. First sample with Postman (Text)
+
+We are going to test the samples in this URL: https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini
 
 We run **Postman** and we create a new **POST** request pressing on the **+** button
 
@@ -151,5 +153,5 @@ After pressing the **Send** button we get the following response
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/12f2e367-7502-476e-a5ce-a76816be2e88)
 
-
+## 4. Second sample with Postman (Multimodal)
 
