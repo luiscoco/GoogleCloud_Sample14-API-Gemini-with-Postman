@@ -79,6 +79,12 @@ We select the **POST** request
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/2ac534e7-e479-41a9-b516-dfb5f2435dce)
 
+We navigate to **Gemini Sample** URL: https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini
 
+and we copy the Gemini URL in Postman
+
+https://**us-central1**-aiplatform.googleapis.com/v1/projects/**PROJECT_ID**/locations/**us-central1**/publishers/google/models/gemini-pro:streamGenerateContent?alt=sse
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/e39d5d49-1a4d-4f04-b951-cea69ac42007)
 
 
