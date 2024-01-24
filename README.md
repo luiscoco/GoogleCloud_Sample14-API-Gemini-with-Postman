@@ -61,11 +61,15 @@ gcloud ai endpoints list --region=us-central1
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/2b37b266-08f2-418c-a382-27078c20aa8a)
 
+## 2. Gemini API Reference documentation
+
+We recomend you to visit the following web pages to start working with **Gemini**
+
+https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/quickstart-multimodal
+
+https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini
+
+## 3. First sample with Postman
 
 
-## 2. 
-
-
-
-## 3. 
 
