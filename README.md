@@ -87,4 +87,12 @@ https://**us-central1**-aiplatform.googleapis.com/v1/projects/**PROJECT_ID**/loc
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/e39d5d49-1a4d-4f04-b951-cea69ac42007)
 
+We obtain the **PROJECT_ID** we press on the project drop-down list
 
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/3d26e2e6-7f7a-4fa7-a23f-7a07380ee720)
+
+And we copy the **PROJECT_ID** in postman
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/396ac1f9-46f1-4257-8ab9-91c68438cffb)
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/8eec0683-65c8-478f-9a7f-4d5076109026)
