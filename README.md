@@ -128,7 +128,7 @@ We input the **Access Token in Postman**
 
 We select the Body request format **JSON**
 
-![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/49305cca-678c-473b-92dd-81a51cf0b39c)
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/1f24d8be-98b7-446c-ba9a-de2b4549b804)
 
 We input the input **Body** request
 
