@@ -35,8 +35,6 @@ We log in with the authorization
 gcloud auth login
 ```
 
-![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/46801ae1-9e83-4a9a-a9ba-10192573c8cc)
-
 We can list the **authorizations** with the following command
 
 ```
