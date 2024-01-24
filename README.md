@@ -106,3 +106,25 @@ And we copy the **PROJECT_ID** in postman
 We input the **PROJECT_ID** in postman
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/8eec0683-65c8-478f-9a7f-4d5076109026)
+
+We obtain the **Access Token** running this command
+
+```
+gcloud auth print-access-token
+```
+
+We input the **Access Token in Postman**
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/b1c8ff06-7569-4a41-8c1d-c2e91306de45)
+
+We select the Body request format **JSON**
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/49305cca-678c-473b-92dd-81a51cf0b39c)
+
+We input the input **Body** request
+
+
+
+
+
+
