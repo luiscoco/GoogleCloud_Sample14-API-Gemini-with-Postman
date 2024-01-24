@@ -189,7 +189,7 @@ We get the **PROJECT_ID** from Google Cloud Console
 
 We input the **PROJECT_ID** in postman
 
-![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/8eec0683-65c8-478f-9a7f-4d5076109026)
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/6b25d13b-4315-4ff0-acb4-deef434130a3)
 
 We select the Body request format **JSON**
 
