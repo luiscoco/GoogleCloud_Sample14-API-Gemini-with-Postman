@@ -71,6 +71,17 @@ https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini
 
 ## 3. First sample with Postman (Text)
 
+We run these commands and then we copy the Access Token 
+
+```
+gcloud init
+gcloud config set project extreme-axon-381209
+gcloud auth login
+gcloud auth list
+gcloud auth print-access-token
+gcloud ai endpoints list --region=us-central1
+```
+
 We are going to test the samples in this URL: https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini
 
 We run **Postman** and we create a new **POST** request pressing on the **+** button
@@ -154,4 +165,21 @@ After pressing the **Send** button we get the following response
 ![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/12f2e367-7502-476e-a5ce-a76816be2e88)
 
 ## 4. Second sample with Postman (Multimodal)
+
+We run these commands and then we copy the Access Token 
+
+```
+gcloud init
+gcloud config set project extreme-axon-381209
+gcloud auth login
+gcloud auth list
+gcloud auth print-access-token
+gcloud ai endpoints list --region=us-central1
+```
+
+We input the Access Toke in Postman
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample14-API-Gemini-with-Postman/assets/32194879/7513c572-4809-4010-863e-182a71563111)
+
+We are going to test the samples in this URL: https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini
 
